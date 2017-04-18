@@ -1,9 +1,14 @@
-# api documentation for  [gulp-shell (v0.6.3)](https://github.com/sun-zheng-an/gulp-shell)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-shell.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-shell) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-shell.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-shell)
+# npmdoc-gulp-shell
+
+#### api documentation for  [gulp-shell (v0.6.3)](https://github.com/sun-zheng-an/gulp-shell)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-shell.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-shell) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-shell.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-shell)
+
 #### A handy command line interface for gulp
 
-[![NPM](https://nodei.co/npm/gulp-shell.png?downloads=true)](https://www.npmjs.com/package/gulp-shell)
+[![NPM](https://nodei.co/npm/gulp-shell.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-shell)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-shell/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-shell%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-shell/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-shell/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-shell/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-shell/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-shell/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-shell/build/screenCapture.npmPackageListing.svg)
 
@@ -58,13 +63,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "sun-zheng-an",
-            "email": "sun.zheng.an.0@gmail.com"
+            "name": "sun-zheng-an"
         }
     ],
     "name": "gulp-shell",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sun-zheng-an/gulp-shell.git"
@@ -75,44 +78,6 @@
     },
     "version": "0.6.3"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-shell](#apidoc.module.gulp-shell)
-1.  [function <span class="apidocSignatureSpan">gulp-shell.</span>task (commands, options)](#apidoc.element.gulp-shell.task)
-
-
-
-# <a name="apidoc.module.gulp-shell"></a>[module gulp-shell](#apidoc.module.gulp-shell)
-
-#### <a name="apidoc.element.gulp-shell.task"></a>[function <span class="apidocSignatureSpan">gulp-shell.</span>task (commands, options)](#apidoc.element.gulp-shell.task)
-- description and source-code
-```javascript
-(commands, options) => (done) => {
-  runCommands(normalizeCommands(commands), normalizeOptions(options), null, done)
-}
-```
-- example usage
-```shell
-...
-
-## Usage
-
-'''js
-const gulp = require('gulp')
-const shell = require('gulp-shell')
-
-gulp.task('example', () => {
-  return gulp.src('*.js', {read: false})
-  .pipe(shell([
-    'echo <%= file.path %>'
-  ]))
-})
-'''
-...
 ```
 
 
