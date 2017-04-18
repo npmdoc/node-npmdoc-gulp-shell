@@ -53,7 +53,7 @@
 <tspan x="10" y="810">  │   └── clone-stats@0.0.1 </tspan>
 <tspan x="10" y="826">  ├── lodash@4.17.4 </tspan>
 <tspan x="10" y="842">  └─┬ through2@2.0.3 </tspan>
-<tspan x="10" y="858">    ├─┬ readable-stream@2.2.8 </tspan>
+<tspan x="10" y="858">    ├─┬ readable-stream@2.2.9 </tspan>
 <tspan x="10" y="874">    │ ├── buffer-shims@1.0.0 </tspan>
 <tspan x="10" y="890">    │ ├── core-util-is@1.0.2 </tspan>
 <tspan x="10" y="906">    │ ├── inherits@2.0.3 </tspan>
